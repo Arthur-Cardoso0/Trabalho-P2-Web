@@ -1,0 +1,42 @@
+.card {
+  border: 1px solid #000000;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 400px;
+}
+
+.card img {
+  width: auto;
+  height: 150px;
+  justify-content: center;
+  margin: auto;
+  object-fit: cover ;
+}
+
+.card h3 {
+  font-size: 23px;
+  margin: 0.5rem 0;
+  color: #000000;
+}
+
+.card p {
+  font-size: 18px;
+}
+
+.card a {
+  font-size: 20px;
+  color: #000000;
+}
+
+@media screen and (max-width: 760px) {  
+  .card {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,9 @@
+.likebutton{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+}
