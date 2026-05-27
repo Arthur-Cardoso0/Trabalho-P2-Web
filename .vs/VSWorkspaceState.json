@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Trabalho-P2-Web-main",
+    "\\Trabalho-P2-Web-main\\app",
+    "\\Trabalho-P2-Web-main\\app\\contato",
+    "\\Trabalho-P2-Web-main\\app\\produtos",
+    "\\Trabalho-P2-Web-main\\components",
+    "\\Trabalho-P2-Web-main\\components\\Header",
+    "\\Trabalho-P2-Web-main\\components\\Likebutton",
+    "\\Trabalho-P2-Web-main\\components\\Productcard",
+    "\\Trabalho-P2-Web-main\\components\\Searchbar"
+  ],
+  "SelectedNode": "\\Trabalho-P2-Web-main\\app\\contato\\contato.module.css",
+  "PreviewInSolutionExplorer": false
+}
