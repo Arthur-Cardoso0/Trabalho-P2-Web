@@ -1,6 +1,8 @@
+import styles from './contato.module.css';
+
 export default function Contato() {
   return (
-    <div>
+    <div className={styles.contato}>
       <h1>Contato</h1>
       <form>
         <input type="text" placeholder="Seu nome" />

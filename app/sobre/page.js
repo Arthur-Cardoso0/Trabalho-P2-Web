@@ -1,6 +1,8 @@
+import styles from './sobre.module.css';
+
 export default function Sobre() {
   return (
-    <div>
+    <div className={styles.sobre}>
       <h1>Sobre o Projeto</h1>
       <p>Este site foi criado para demonstrar o uso de Next.js e React
         para contruir um catalogo de produtos interativo. 

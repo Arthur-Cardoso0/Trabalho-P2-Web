@@ -1,4 +1,5 @@
 import { Products } from "../Produtos.js";
+import styles from './ProdutoDetalhe.module.css';
 
 export default async function ProdutoDetalhe({ params }) {
   const { id } = await params;
@@ -9,7 +10,7 @@ export default async function ProdutoDetalhe({ params }) {
   }
 
   return (
-    <div className="produto-detalhe">
+    <div className={styles.produtoDetalhe}>
       <img src={product.image} alt={product.name} />
       <h1>{product.name}</h1>
       <p>Preço: R${product.price}</p>
