@@ -1,0 +1,22 @@
+"use client";
+import { useState } from "react";
+import styles from "./Searchbar.module.css";
+
+export default function SearchBar({ procurar }) {
+  const [filtro, setFiltro] = useState("");
+
+  return (
+    <div className={styles.wrapper}>
+      <input
+        className={styles.searchbar}
+        type="text"
+        placeholder="🔍  Buscar produto..."
+        value={filtro}
+        onChange={(e) => {
+          setFiltro(e.target.value);
+          procurar(e.target.value);
+        }}
+      />
+    </div>
+  );
+}
