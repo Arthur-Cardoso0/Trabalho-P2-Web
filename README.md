@@ -72,7 +72,7 @@ Regras de integridade importantes:
 ## 📦 Instalação
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Arthur-Cardoso0/Trabalho-P2-Web
 cd API-cinema
 npm install
 ```
